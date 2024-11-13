@@ -1,0 +1,466 @@
+.header{
+    width: 100%;
+    height: 63px;
+    background: black;
+    font-size: 16px;
+    
+
+}
+body{
+    margin: 0;
+ 
+}
+
+
+.logo-img{
+    margin-left: 72px;
+    width: 96px;
+    margin-top: 24px;
+}
+.btn-header-home{
+    position: absolute;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    font-size: 16px;
+    border: none;
+    letter-spacing: .04em;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    border-top: 2px transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 45px;
+    height: 43px;
+    width: 55px;
+    font-style: normal;
+    font-weight: 500;
+    border-top: 2px transparent;
+    text-decoration: inherit;
+    transition-duration: .1s;
+    transition-property: color, background-color, box-shadow;
+    white-space: nowrap;
+    box-sizing: content-box;
+    transition: background-color 0.3s;
+    
+
+}
+.btn-header-home:hover{
+    background: white;
+    color: black;
+}
+.btn-header-movies{
+    position: absolute;
+    justify-content: center;
+    font-size: 16px;
+    border: none;
+    letter-spacing: .04em;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    border-top: 2px transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 132px;
+    margin-top: 10px;
+    height: 43px;
+    width: 70px;
+    font-style: normal;
+    font-weight: 500;
+    border-top: 2px transparent;
+    text-decoration: inherit;
+    transition-duration: .1s;
+    transition-property: color, background-color, box-shadow;
+    white-space: nowrap;
+    box-sizing: content-box;
+    font-family: 'Amazon Ember', 'Amazon Arabic Ember', Arial, sans-serif !important;
+    transition: background-color 0.3s;
+}
+.btn-header-movies:hover{
+    background: white;
+    color: black;
+}
+.btn-header-shows{
+    position: absolute;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    font-size: 16px;
+    border: none;
+    letter-spacing: .04em;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    border-top: 2px transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 231px;
+    height: 43px;
+    width: 90px;
+    font-style: normal;
+    font-weight: 500;
+    border-top: 2px transparent;
+    text-decoration: inherit;
+    transition-duration: .1s;
+    transition-property: color, background-color, box-shadow;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    box-sizing: content-box;
+}
+.btn-header-shows:hover{
+    background: white;
+    color: black;
+}
+.btn-header-live{
+    position: absolute;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    font-size: 16px;
+    border: none;
+    letter-spacing: .04em;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    border-top: 2px transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 348px;
+    margin-top: 10px;
+    height: 43px;
+    width: 80px;
+    font-style: normal;
+    font-weight: 500;
+    border-top: 2px transparent;
+    text-decoration: inherit;
+    transition-duration: .1s;
+    transition-property: color, background-color, box-shadow;
+    white-space: nowrap;
+    box-sizing: content-box;
+    text-overflow: ellipsis;
+    transition: background-color 0.3s;
+}
+.btn-header-live:hover{
+    background: white;
+    color: black;
+}
+.divider {
+    width: 2.5px; /* Width of the divider */
+    background-color:  hsla(0, 0%, 100%, .4); /* Color of the divider */
+    height: 23px; /* Height of the divider */
+    margin: 0 10px; /* Space around the divider */
+    margin-top: -25px;
+    margin-left: 619px;
+}
+.sub{
+    position: absolute;
+    margin-left: 655px;
+    margin-top: -34px;
+    width: 146px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    letter-spacing: .1em;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    border-top: 2px transparent;
+    color: white;
+    cursor: pointer;
+   
+    font-style: normal;
+    font-weight: 500;
+    border-top: 2px transparent;
+    text-decoration: inherit;
+    transition-duration: .1s;
+    transition-property: color, background-color, box-shadow;
+    white-space: nowrap;
+    box-sizing: content-box;
+    
+}
+.sub:hover{
+    background: white;
+    color: black;
+}
+
+
+.language-toggle {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    font-size: 16px;
+    border: none;
+    letter-spacing: .04em;
+    background: black;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+    box-sizing: content-box;
+    margin-top: -41px;
+    margin-left: 1178px;
+    height: 23px;
+    width: 45px;
+}
+
+
+.language-toggle:hover {
+    background-color: white;
+    color: black;
+}
+
+.image-button {
+    background-color: transparent; /* Transparent background */
+    border: 1px; /* No border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    padding: 10px; /* Space around the image */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s; /* Animation for hover effect */
+    margin-left: 1300px;
+    margin-top: -43px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.button-image {
+    width: 30px; /* Width of the image */
+    height: 30px; /* Height of the image */
+}
+.prime{
+    position: absolute;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    font-size: 16px;
+    border: none;
+    letter-spacing: .04em;
+    background: #00a8e1;
+    border: none;
+    border-radius: 8px;
+    border-top: 2px transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 1360px;
+    margin-left: 1360px;
+    margin-top: -41px;
+    width: 100px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 500;
+    border-top: 2px transparent;
+    text-decoration: inherit;
+    transition-duration: .1s;
+    transition-property: color, background-color, box-shadow;
+    white-space: nowrap;
+    box-sizing: content-box;
+    text-overflow: ellipsis;
+    transition: background-color 0.3s;
+}
+
+
+.center{
+    width: 100%;
+    height: 1000px;
+    background: black;
+}
+
+.image-container {
+    
+    width: 100%;
+}
+
+.image { position: relative;
+    left: 35%;
+    width: 65%;
+    height: 510px; /* Set the desired height */
+}
+
+.welcome-text {
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; /* Text color */
+    
+    text-align: center; /* Center text content */
+    display: inline;
+    padding-bottom: 0;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    margin-top: -195px;
+margin-left: -490px;
+font-size: 20px;
+font-family: 'Amazon Ember', Arial, sans-serif;
+line-height: 44.8px;
+}
+.welcome-para {
+    position: relative;
+     /* Adjust this value to move the text horizontally */
+     font-family: 'Amazon Ember', Arial, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+ /* Adjust size */
+    color: white;
+    font-weight: 400; /* Lighter text */
+    line-height: 1.5; /* Controls spacing between lines */
+    text-align: left;
+    margin-left: 160px;
+    margin-top: -10px;
+   
+   
+}
+.second-center{
+    width: 100%;
+    height: 560px;
+    background: white;
+}
+.sign-btn{
+    position: absolute;
+    margin-top: 19px;
+    margin-left: -230px;
+    width: 280px;
+    height: 50px;
+    color: white;
+    background: #000000 ;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.image-container2{
+    width: 100%;
+    
+}
+.image2 {
+    width: 100%;
+    height: 510px; /* Set the desired height */
+    margin-top: -10px;
+}
+.welcome-text2{
+   margin-top: -495px;
+   margin-left: 48px;
+   color: white;
+   font-size: 20px;
+   line-height: 2.8rem;
+   font-weight: 400;
+   font-family: 'Amazon Ember', Arial, sans-serif;
+}
+.welcome-para2{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+.rent-btn{
+    margin-top: 25px;
+    width: 280px;
+    height: 50px;
+    color: black;
+    background: white ;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: medium;
+    border: none;
+}
+.left-side{
+    height: 100%;
+    width: 50%;
+    background: #00050d;
+    float: left;
+    
+}
+.right-side{
+    height: 100%;
+    width: 50%;
+    background: #00050d;
+    float: left;
+  
+}
+.heading{
+    font-size: 52px;
+   font-family:  'Amazon Ember', Arial, sans-serif;
+
+    font-weight: 900px;
+    color: white;
+    margin-left: 85px;
+}
+.third-para{
+    margin-left: 85px;
+    font-size: 29px;
+    font-family:  'Amazon Ember', Arial, sans-serif;
+    color: white;
+    font-weight: normal;
+    line-height: .99;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 222px); /* Fixed width for each image column */
+    grid-gap: 20px; /* Set gap between images to 5px */
+    margin-top: 5px; /* Add margin to create gap between the grid and the div above */
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.image-grid img {
+    width: 222px; /* Fixed width of the image */
+    height: 152px; /* Fixed height of the image */
+    object-fit: cover; 
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for shadow and transform */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    position: relative; /* Positioning context for the pseudo-element */
+  
+}
+.image3{
+   
+    
+    position: absolute; /* Position it absolutely */
+    top: 0; /* Align with the top */
+    left: 0; /* Align with the left */
+    right: 0; /* Align with the right */
+    bottom: 0; /* Align with the bottom */
+  
+  
+    border-radius: 12px; /* Optional: match the image's border radius */
+}
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background: #222222;
+}
+.footerimage{
+    
+    margin-top: 24px;
+    margin-left: 712px;
+
+}
+.links{
+    margin-top: 2px;
+    margin-left: 579px;
+    
+}
+.Terms1{
+    color: #79b8f3;;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    margin-right: 10px;
+}
+
+.year{
+    margin-left: 24px;
+    margin-top: 10px;
+}
+.year1{
+    color: #8197a4;
+}
+  
+
